@@ -1,25 +1,35 @@
 interface State {
   count: number
 }
+const initialState: State = {
+  count: 0
+};
 
-export enum ActionType {
-  Increment,
-  Decrement,
-  Reset
+export const INCREMENT = 'INCREMENT';
+export const DECREMENT = 'DECREMENT';
+export const RESET = 'RESET';
+
+interface IncrementAction {
+  type: typeof INCREMENT
+}
+interface DecrementAction {
+  type: typeof DECREMENT
+}
+interface ResetAction {
+  type: typeof RESET,
+  count: number
 }
 
-interface Action {
-  type: ActionType,
-}
+export type Action = IncrementAction | DecrementAction | ResetAction;
 
-export default function reducer(state: State, action: Action) {
+export default function reducer(state = initialState, action: Action) {
   switch (action.type) {
-    case ActionType.Increment:
-      return {count: state.count + 1};
-    case ActionType.Decrement:
-      return {count: state.count - 1};
-    case ActionType.Reset:
-      return {count: 0};
+    case INCREMENT:
+      return { count: state.count + 1 };
+    case DECREMENT:
+      return { count: state.count - 1 };
+    case RESET:
+      return { count: action.count };
     default:
       throw new Error();
   }

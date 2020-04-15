@@ -2,7 +2,7 @@ import React, { useReducer } from 'react';
 import './Counter.css';
 import Button from '@material-ui/core/Button';
 import Container from '@material-ui/core/Container';
-import reducer, { ActionType} from './CounterReducer';
+import reducer, { INCREMENT, DECREMENT, RESET} from './CounterReducer';
 
 interface CounterProp {
   count?: number;
@@ -24,9 +24,10 @@ export default function Counter(props: CounterProp) {
       <div>
         Count: {state.count}
       </div>
-      <Button variant="outlined" color="secondary" onClick={() => dispatch({ type: ActionType.Reset })}>Reset</Button>
-      <Button variant="outlined" color="primary" onClick={() => dispatch({ type: ActionType.Decrement})}>{subtractText}</Button>
-      <Button variant="outlined" color="primary" onClick={() => dispatch({ type: ActionType.Increment})}>{addText}</Button>
+      {/* For simplicity I don't create an actionCreator e.g. reset(0), decrement() */}
+      <Button variant="outlined" color="secondary" onClick={() => dispatch({ type: RESET, count })}>Reset</Button>
+      <Button variant="outlined" color="primary" onClick={() => dispatch({ type: DECREMENT})}>{subtractText}</Button>
+      <Button variant="outlined" color="primary" onClick={() => dispatch({ type: INCREMENT})}>{addText}</Button>
     </Container>
   )
 }
