@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import React, { useReducer } from 'react';
 import './Counter.css';
 import Button from '@material-ui/core/Button';
 import Container from '@material-ui/core/Container';
-
+import reducer, { ActionType} from './CounterReducer';
 
 interface CounterProp {
   count?: number;
@@ -17,16 +17,16 @@ export default function Counter(props: CounterProp) {
     addText = 'add'
   } = props;
 
-  const [currectCount, setCount] = useState(count);
+  const [state, dispatch] = useReducer(reducer, { count });
 
   return (
     <Container>
       <div>
-        Count: {currectCount}
+        Count: {state.count}
       </div>
-      <Button variant="outlined" color="secondary" onClick={() => setCount(count)}>Reset</Button>
-      <Button variant="outlined" color="primary" onClick={() => setCount(prevCount => prevCount - 1)}>{subtractText}</Button>
-      <Button variant="outlined" color="primary" onClick={() => setCount(prevCount => prevCount + 1)}>{addText}</Button>
+      <Button variant="outlined" color="secondary" onClick={() => dispatch({ type: ActionType.Reset })}>Reset</Button>
+      <Button variant="outlined" color="primary" onClick={() => dispatch({ type: ActionType.Decrement})}>{subtractText}</Button>
+      <Button variant="outlined" color="primary" onClick={() => dispatch({ type: ActionType.Increment})}>{addText}</Button>
     </Container>
   )
 }

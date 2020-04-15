@@ -6,7 +6,7 @@ import './App.css';
 function App() {
   return (
     <div>
-        <Counter addText="increase" />
+        <Counter addText="increase" count={2} />
     </div>
   );
 }
