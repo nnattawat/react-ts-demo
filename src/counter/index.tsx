@@ -1,4 +1,4 @@
-import React, { useReducer } from 'react';
+import React, { useReducer, useEffect } from 'react';
 import './Counter.css';
 import Button from '@material-ui/core/Button';
 import Container from '@material-ui/core/Container';
@@ -8,16 +8,21 @@ interface CounterProp {
   count?: number;
   subtractText?: string; 
   addText?: string;
+  onChange?(count: number): void;
 }
 
 export default function Counter(props: CounterProp) {
   const {
     count = 0,
     subtractText = 'subtract',
-    addText = 'add'
+    addText = 'add',
+    onChange = () => {}
   } = props;
 
   const [state, dispatch] = useReducer(reducer, { count });
+  useEffect(() => {
+    onChange(state.count);
+  }, [state.count]) 
 
   return (
     <Container>

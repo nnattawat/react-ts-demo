@@ -6,7 +6,11 @@ import './App.css';
 function App() {
   return (
     <div>
-        <Counter addText="increase" count={2} />
+        <Counter 
+          addText="increase"
+          count={2}
+          onChange={count => console.log(`New count: ${count}`)}
+        />
     </div>
   );
 }
