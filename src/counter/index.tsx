@@ -5,19 +5,18 @@ import Container from '@material-ui/core/Container';
 import reducer, { INCREMENT, DECREMENT, RESET} from './CounterReducer';
 
 interface CounterProp {
-  count?: number;
+  count: number;
   subtractText?: string; 
   addText?: string;
   onChange?(count: number): void;
 }
 
-export default function Counter(props: CounterProp) {
-  const {
-    count = 0,
-    subtractText = 'subtract',
-    addText = 'add',
-    onChange = () => {}
-  } = props;
+export default function Counter({
+  count = 0,
+  subtractText = 'subtract',
+  addText = 'add',
+  onChange = () => { }
+}: CounterProp) {
 
   const [state, dispatch] = useReducer(reducer, { count });
   useEffect(() => {
