@@ -6,7 +6,7 @@ import reducer, { INCREMENT, DECREMENT, RESET} from './CounterReducer';
 
 interface CounterProp {
   count: number;
-  subtractText?: string; 
+  subtractText?: string;
   addText?: string;
   onChange?(count: number): void;
 }
@@ -19,9 +19,10 @@ export default function Counter({
 }: CounterProp) {
 
   const [state, dispatch] = useReducer(reducer, { count });
+
   useEffect(() => {
     onChange(state.count);
-  }, [state.count]) 
+  }, [state.count])
 
   return (
     <Container>

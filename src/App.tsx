@@ -1,12 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
-import Counter from './counter';
+import Counter from './components/counter';
 import './App.css';
 
 function App() {
   return (
     <div>
-        <Counter 
+        <Counter
           addText="increase"
           count={2}
           onChange={count => console.log(`New count: ${count}`)}
