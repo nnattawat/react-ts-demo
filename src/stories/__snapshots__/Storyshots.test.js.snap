@@ -1,0 +1,1318 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Bar Chart Basic Bar Chart 1`] = `
+<div
+  className="recharts-wrapper"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  onMouseMove={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  style={
+    Object {
+      "cursor": "default",
+      "height": 300,
+      "position": "relative",
+      "width": 1000,
+    }
+  }
+>
+  <svg
+    className="recharts-surface"
+    height={300}
+    version="1.1"
+    viewBox="0 0 1000 300"
+    width={1000}
+  >
+    <defs>
+      <clipPath
+        id="recharts4-clip"
+      >
+        <rect
+          height={260}
+          width={930}
+          x={65}
+          y={5}
+        />
+      </clipPath>
+    </defs>
+    <g
+      className="recharts-cartesian-grid"
+    >
+      <g
+        className="recharts-cartesian-grid-horizontal"
+      >
+        <line
+          fill="none"
+          height={260}
+          stroke="#ccc"
+          strokeDasharray="3 3"
+          width={930}
+          x={65}
+          x1={65}
+          x2={995}
+          y={5}
+          y1={265}
+          y2={265}
+        />
+        <line
+          fill="none"
+          height={260}
+          stroke="#ccc"
+          strokeDasharray="3 3"
+          width={930}
+          x={65}
+          x1={65}
+          x2={995}
+          y={5}
+          y1={200}
+          y2={200}
+        />
+        <line
+          fill="none"
+          height={260}
+          stroke="#ccc"
+          strokeDasharray="3 3"
+          width={930}
+          x={65}
+          x1={65}
+          x2={995}
+          y={5}
+          y1={135}
+          y2={135}
+        />
+        <line
+          fill="none"
+          height={260}
+          stroke="#ccc"
+          strokeDasharray="3 3"
+          width={930}
+          x={65}
+          x1={65}
+          x2={995}
+          y={5}
+          y1={70}
+          y2={70}
+        />
+        <line
+          fill="none"
+          height={260}
+          stroke="#ccc"
+          strokeDasharray="3 3"
+          width={930}
+          x={65}
+          x1={65}
+          x2={995}
+          y={5}
+          y1={5}
+          y2={5}
+        />
+      </g>
+      <g
+        className="recharts-cartesian-grid-vertical"
+      >
+        <line
+          fill="none"
+          height={260}
+          stroke="#ccc"
+          strokeDasharray="3 3"
+          width={930}
+          x={65}
+          x1={123.125}
+          x2={123.125}
+          y={5}
+          y1={5}
+          y2={265}
+        />
+        <line
+          fill="none"
+          height={260}
+          stroke="#ccc"
+          strokeDasharray="3 3"
+          width={930}
+          x={65}
+          x1={239.375}
+          x2={239.375}
+          y={5}
+          y1={5}
+          y2={265}
+        />
+        <line
+          fill="none"
+          height={260}
+          stroke="#ccc"
+          strokeDasharray="3 3"
+          width={930}
+          x={65}
+          x1={355.625}
+          x2={355.625}
+          y={5}
+          y1={5}
+          y2={265}
+        />
+        <line
+          fill="none"
+          height={260}
+          stroke="#ccc"
+          strokeDasharray="3 3"
+          width={930}
+          x={65}
+          x1={471.875}
+          x2={471.875}
+          y={5}
+          y1={5}
+          y2={265}
+        />
+        <line
+          fill="none"
+          height={260}
+          stroke="#ccc"
+          strokeDasharray="3 3"
+          width={930}
+          x={65}
+          x1={588.125}
+          x2={588.125}
+          y={5}
+          y1={5}
+          y2={265}
+        />
+        <line
+          fill="none"
+          height={260}
+          stroke="#ccc"
+          strokeDasharray="3 3"
+          width={930}
+          x={65}
+          x1={704.375}
+          x2={704.375}
+          y={5}
+          y1={5}
+          y2={265}
+        />
+        <line
+          fill="none"
+          height={260}
+          stroke="#ccc"
+          strokeDasharray="3 3"
+          width={930}
+          x={65}
+          x1={820.625}
+          x2={820.625}
+          y={5}
+          y1={5}
+          y2={265}
+        />
+        <line
+          fill="none"
+          height={260}
+          stroke="#ccc"
+          strokeDasharray="3 3"
+          width={930}
+          x={65}
+          x1={936.875}
+          x2={936.875}
+          y={5}
+          y1={5}
+          y2={265}
+        />
+        <line
+          fill="none"
+          height={260}
+          stroke="#ccc"
+          strokeDasharray="3 3"
+          width={930}
+          x={65}
+          x1={65}
+          x2={65}
+          y={5}
+          y1={5}
+          y2={265}
+        />
+        <line
+          fill="none"
+          height={260}
+          stroke="#ccc"
+          strokeDasharray="3 3"
+          width={930}
+          x={65}
+          x1={995}
+          x2={995}
+          y={5}
+          y1={5}
+          y2={265}
+        />
+      </g>
+    </g>
+    <g
+      className="recharts-layer recharts-cartesian-axis recharts-xAxis xAxis"
+    >
+      <line
+        className="recharts-cartesian-axis-line"
+        fill="none"
+        height={30}
+        stroke="#666"
+        width={930}
+        x={65}
+        x1={65}
+        x2={995}
+        y={265}
+        y1={265}
+        y2={265}
+      />
+      <g
+        className="recharts-cartesian-axis-ticks"
+      >
+        <g
+          className="recharts-layer recharts-cartesian-axis-tick"
+        >
+          <line
+            className="recharts-cartesian-axis-tick-line"
+            fill="none"
+            height={30}
+            stroke="#666"
+            width={930}
+            x={65}
+            x1={123.125}
+            x2={123.125}
+            y={265}
+            y1={271}
+            y2={265}
+          />
+          <text
+            className="recharts-text recharts-cartesian-axis-tick-value"
+            fill="#666"
+            height={30}
+            stroke="none"
+            textAnchor="middle"
+            width={930}
+            x={123.125}
+            y={273}
+          >
+            <tspan
+              dy="0.71em"
+              x={123.125}
+            >
+              Australian Capital Territory
+            </tspan>
+          </text>
+        </g>
+        <g
+          className="recharts-layer recharts-cartesian-axis-tick"
+        >
+          <line
+            className="recharts-cartesian-axis-tick-line"
+            fill="none"
+            height={30}
+            stroke="#666"
+            width={930}
+            x={65}
+            x1={239.375}
+            x2={239.375}
+            y={265}
+            y1={271}
+            y2={265}
+          />
+          <text
+            className="recharts-text recharts-cartesian-axis-tick-value"
+            fill="#666"
+            height={30}
+            stroke="none"
+            textAnchor="middle"
+            width={930}
+            x={239.375}
+            y={273}
+          >
+            <tspan
+              dy="0.71em"
+              x={239.375}
+            >
+              New South Wales
+            </tspan>
+          </text>
+        </g>
+        <g
+          className="recharts-layer recharts-cartesian-axis-tick"
+        >
+          <line
+            className="recharts-cartesian-axis-tick-line"
+            fill="none"
+            height={30}
+            stroke="#666"
+            width={930}
+            x={65}
+            x1={355.625}
+            x2={355.625}
+            y={265}
+            y1={271}
+            y2={265}
+          />
+          <text
+            className="recharts-text recharts-cartesian-axis-tick-value"
+            fill="#666"
+            height={30}
+            stroke="none"
+            textAnchor="middle"
+            width={930}
+            x={355.625}
+            y={273}
+          >
+            <tspan
+              dy="0.71em"
+              x={355.625}
+            >
+              Northern Territory
+            </tspan>
+          </text>
+        </g>
+        <g
+          className="recharts-layer recharts-cartesian-axis-tick"
+        >
+          <line
+            className="recharts-cartesian-axis-tick-line"
+            fill="none"
+            height={30}
+            stroke="#666"
+            width={930}
+            x={65}
+            x1={471.875}
+            x2={471.875}
+            y={265}
+            y1={271}
+            y2={265}
+          />
+          <text
+            className="recharts-text recharts-cartesian-axis-tick-value"
+            fill="#666"
+            height={30}
+            stroke="none"
+            textAnchor="middle"
+            width={930}
+            x={471.875}
+            y={273}
+          >
+            <tspan
+              dy="0.71em"
+              x={471.875}
+            >
+              Queensland
+            </tspan>
+          </text>
+        </g>
+        <g
+          className="recharts-layer recharts-cartesian-axis-tick"
+        >
+          <line
+            className="recharts-cartesian-axis-tick-line"
+            fill="none"
+            height={30}
+            stroke="#666"
+            width={930}
+            x={65}
+            x1={588.125}
+            x2={588.125}
+            y={265}
+            y1={271}
+            y2={265}
+          />
+          <text
+            className="recharts-text recharts-cartesian-axis-tick-value"
+            fill="#666"
+            height={30}
+            stroke="none"
+            textAnchor="middle"
+            width={930}
+            x={588.125}
+            y={273}
+          >
+            <tspan
+              dy="0.71em"
+              x={588.125}
+            >
+              South Australia
+            </tspan>
+          </text>
+        </g>
+        <g
+          className="recharts-layer recharts-cartesian-axis-tick"
+        >
+          <line
+            className="recharts-cartesian-axis-tick-line"
+            fill="none"
+            height={30}
+            stroke="#666"
+            width={930}
+            x={65}
+            x1={704.375}
+            x2={704.375}
+            y={265}
+            y1={271}
+            y2={265}
+          />
+          <text
+            className="recharts-text recharts-cartesian-axis-tick-value"
+            fill="#666"
+            height={30}
+            stroke="none"
+            textAnchor="middle"
+            width={930}
+            x={704.375}
+            y={273}
+          >
+            <tspan
+              dy="0.71em"
+              x={704.375}
+            >
+              Tasmania
+            </tspan>
+          </text>
+        </g>
+        <g
+          className="recharts-layer recharts-cartesian-axis-tick"
+        >
+          <line
+            className="recharts-cartesian-axis-tick-line"
+            fill="none"
+            height={30}
+            stroke="#666"
+            width={930}
+            x={65}
+            x1={820.625}
+            x2={820.625}
+            y={265}
+            y1={271}
+            y2={265}
+          />
+          <text
+            className="recharts-text recharts-cartesian-axis-tick-value"
+            fill="#666"
+            height={30}
+            stroke="none"
+            textAnchor="middle"
+            width={930}
+            x={820.625}
+            y={273}
+          >
+            <tspan
+              dy="0.71em"
+              x={820.625}
+            >
+              Victoria
+            </tspan>
+          </text>
+        </g>
+        <g
+          className="recharts-layer recharts-cartesian-axis-tick"
+        >
+          <line
+            className="recharts-cartesian-axis-tick-line"
+            fill="none"
+            height={30}
+            stroke="#666"
+            width={930}
+            x={65}
+            x1={936.875}
+            x2={936.875}
+            y={265}
+            y1={271}
+            y2={265}
+          />
+          <text
+            className="recharts-text recharts-cartesian-axis-tick-value"
+            fill="#666"
+            height={30}
+            stroke="none"
+            textAnchor="middle"
+            width={930}
+            x={936.875}
+            y={273}
+          >
+            <tspan
+              dy="0.71em"
+              x={936.875}
+            >
+              Western Australia
+            </tspan>
+          </text>
+        </g>
+      </g>
+    </g>
+    <g
+      className="recharts-layer recharts-cartesian-axis recharts-yAxis yAxis"
+    >
+      <line
+        className="recharts-cartesian-axis-line"
+        fill="none"
+        height={260}
+        stroke="#666"
+        width={60}
+        x={5}
+        x1={65}
+        x2={65}
+        y={5}
+        y1={5}
+        y2={265}
+      />
+      <g
+        className="recharts-cartesian-axis-ticks"
+      >
+        <g
+          className="recharts-layer recharts-cartesian-axis-tick"
+        >
+          <line
+            className="recharts-cartesian-axis-tick-line"
+            fill="none"
+            height={260}
+            stroke="#666"
+            width={60}
+            x={5}
+            x1={59}
+            x2={65}
+            y={5}
+            y1={265}
+            y2={265}
+          />
+          <text
+            className="recharts-text recharts-cartesian-axis-tick-value"
+            fill="#666"
+            height={260}
+            stroke="none"
+            textAnchor="end"
+            width={60}
+            x={57}
+            y={265}
+          >
+            <tspan
+              dy="0.355em"
+              x={57}
+            >
+              0
+            </tspan>
+          </text>
+        </g>
+        <g
+          className="recharts-layer recharts-cartesian-axis-tick"
+        >
+          <line
+            className="recharts-cartesian-axis-tick-line"
+            fill="none"
+            height={260}
+            stroke="#666"
+            width={60}
+            x={5}
+            x1={59}
+            x2={65}
+            y={5}
+            y1={200}
+            y2={200}
+          />
+          <text
+            className="recharts-text recharts-cartesian-axis-tick-value"
+            fill="#666"
+            height={260}
+            stroke="none"
+            textAnchor="end"
+            width={60}
+            x={57}
+            y={200}
+          >
+            <tspan
+              dy="0.355em"
+              x={57}
+            >
+              750
+            </tspan>
+          </text>
+        </g>
+        <g
+          className="recharts-layer recharts-cartesian-axis-tick"
+        >
+          <line
+            className="recharts-cartesian-axis-tick-line"
+            fill="none"
+            height={260}
+            stroke="#666"
+            width={60}
+            x={5}
+            x1={59}
+            x2={65}
+            y={5}
+            y1={135}
+            y2={135}
+          />
+          <text
+            className="recharts-text recharts-cartesian-axis-tick-value"
+            fill="#666"
+            height={260}
+            stroke="none"
+            textAnchor="end"
+            width={60}
+            x={57}
+            y={135}
+          >
+            <tspan
+              dy="0.355em"
+              x={57}
+            >
+              1500
+            </tspan>
+          </text>
+        </g>
+        <g
+          className="recharts-layer recharts-cartesian-axis-tick"
+        >
+          <line
+            className="recharts-cartesian-axis-tick-line"
+            fill="none"
+            height={260}
+            stroke="#666"
+            width={60}
+            x={5}
+            x1={59}
+            x2={65}
+            y={5}
+            y1={70}
+            y2={70}
+          />
+          <text
+            className="recharts-text recharts-cartesian-axis-tick-value"
+            fill="#666"
+            height={260}
+            stroke="none"
+            textAnchor="end"
+            width={60}
+            x={57}
+            y={70}
+          >
+            <tspan
+              dy="0.355em"
+              x={57}
+            >
+              2250
+            </tspan>
+          </text>
+        </g>
+        <g
+          className="recharts-layer recharts-cartesian-axis-tick"
+        >
+          <line
+            className="recharts-cartesian-axis-tick-line"
+            fill="none"
+            height={260}
+            stroke="#666"
+            width={60}
+            x={5}
+            x1={59}
+            x2={65}
+            y={5}
+            y1={5}
+            y2={5}
+          />
+          <text
+            className="recharts-text recharts-cartesian-axis-tick-value"
+            fill="#666"
+            height={260}
+            stroke="none"
+            textAnchor="end"
+            width={60}
+            x={57}
+            y={5}
+          >
+            <tspan
+              dy="0.355em"
+              x={57}
+            >
+              3000
+            </tspan>
+          </text>
+        </g>
+      </g>
+    </g>
+    <g
+      className="recharts-layer recharts-bar"
+    >
+      <g
+        className="recharts-layer recharts-bar-rectangles"
+        clipPath={null}
+      >
+        <g
+          className="recharts-layer"
+        >
+          <g
+            className="recharts-layer recharts-bar-rectangle"
+          />
+          <g
+            className="recharts-layer recharts-bar-rectangle"
+          />
+          <g
+            className="recharts-layer recharts-bar-rectangle"
+          />
+          <g
+            className="recharts-layer recharts-bar-rectangle"
+          />
+          <g
+            className="recharts-layer recharts-bar-rectangle"
+          />
+          <g
+            className="recharts-layer recharts-bar-rectangle"
+          />
+          <g
+            className="recharts-layer recharts-bar-rectangle"
+          />
+          <g
+            className="recharts-layer recharts-bar-rectangle"
+          />
+        </g>
+      </g>
+    </g>
+    <g
+      className="recharts-layer recharts-bar"
+    >
+      <g
+        className="recharts-layer recharts-bar-rectangles"
+        clipPath={null}
+      >
+        <g
+          className="recharts-layer"
+        >
+          <g
+            className="recharts-layer recharts-bar-rectangle"
+          />
+          <g
+            className="recharts-layer recharts-bar-rectangle"
+          />
+          <g
+            className="recharts-layer recharts-bar-rectangle"
+          />
+          <g
+            className="recharts-layer recharts-bar-rectangle"
+          />
+          <g
+            className="recharts-layer recharts-bar-rectangle"
+          />
+          <g
+            className="recharts-layer recharts-bar-rectangle"
+          />
+          <g
+            className="recharts-layer recharts-bar-rectangle"
+          />
+          <g
+            className="recharts-layer recharts-bar-rectangle"
+          />
+        </g>
+      </g>
+    </g>
+    <g
+      className="recharts-layer recharts-bar"
+    >
+      <g
+        className="recharts-layer recharts-bar-rectangles"
+        clipPath={null}
+      >
+        <g
+          className="recharts-layer"
+        >
+          <g
+            className="recharts-layer recharts-bar-rectangle"
+          />
+          <g
+            className="recharts-layer recharts-bar-rectangle"
+          />
+          <g
+            className="recharts-layer recharts-bar-rectangle"
+          />
+          <g
+            className="recharts-layer recharts-bar-rectangle"
+          />
+          <g
+            className="recharts-layer recharts-bar-rectangle"
+          />
+          <g
+            className="recharts-layer recharts-bar-rectangle"
+          />
+          <g
+            className="recharts-layer recharts-bar-rectangle"
+          />
+          <g
+            className="recharts-layer recharts-bar-rectangle"
+          />
+        </g>
+      </g>
+    </g>
+  </svg>
+  <div
+    className="recharts-legend-wrapper"
+    style={
+      Object {
+        "bottom": 5,
+        "height": "auto",
+        "left": 5,
+        "position": "absolute",
+        "width": 990,
+      }
+    }
+  >
+    <ul
+      className="recharts-default-legend"
+      style={
+        Object {
+          "margin": 0,
+          "padding": 0,
+          "textAlign": "center",
+        }
+      }
+    >
+      <li
+        className="recharts-legend-item legend-item-0"
+        style={
+          Object {
+            "display": "inline-block",
+            "marginRight": 10,
+          }
+        }
+      >
+        <svg
+          className="recharts-surface"
+          height={14}
+          style={
+            Object {
+              "display": "inline-block",
+              "marginRight": 4,
+              "verticalAlign": "middle",
+            }
+          }
+          version="1.1"
+          viewBox="0 0 32 32"
+          width={14}
+        >
+          <path
+            className="recharts-legend-icon"
+            d="M0,4h32v24h-32z"
+            fill="#8884d8"
+            stroke="none"
+          />
+        </svg>
+        <span
+          className="recharts-legend-item-text"
+        >
+          confirmed
+        </span>
+      </li>
+      <li
+        className="recharts-legend-item legend-item-1"
+        style={
+          Object {
+            "display": "inline-block",
+            "marginRight": 10,
+          }
+        }
+      >
+        <svg
+          className="recharts-surface"
+          height={14}
+          style={
+            Object {
+              "display": "inline-block",
+              "marginRight": 4,
+              "verticalAlign": "middle",
+            }
+          }
+          version="1.1"
+          viewBox="0 0 32 32"
+          width={14}
+        >
+          <path
+            className="recharts-legend-icon"
+            d="M0,4h32v24h-32z"
+            fill="#82ca9d"
+            stroke="none"
+          />
+        </svg>
+        <span
+          className="recharts-legend-item-text"
+        >
+          recovered
+        </span>
+      </li>
+      <li
+        className="recharts-legend-item legend-item-2"
+        style={
+          Object {
+            "display": "inline-block",
+            "marginRight": 10,
+          }
+        }
+      >
+        <svg
+          className="recharts-surface"
+          height={14}
+          style={
+            Object {
+              "display": "inline-block",
+              "marginRight": 4,
+              "verticalAlign": "middle",
+            }
+          }
+          version="1.1"
+          viewBox="0 0 32 32"
+          width={14}
+        >
+          <path
+            className="recharts-legend-icon"
+            d="M0,4h32v24h-32z"
+            fill="red"
+            stroke="none"
+          />
+        </svg>
+        <span
+          className="recharts-legend-item-text"
+        >
+          deaths
+        </span>
+      </li>
+    </ul>
+  </div>
+  <div
+    className="recharts-tooltip-wrapper"
+    style={
+      Object {
+        "MozTransform": "translate(undefinedpx, undefinedpx)",
+        "OTransform": "translate(undefinedpx, undefinedpx)",
+        "WebkitTransform": "translate(undefinedpx, undefinedpx)",
+        "msTransform": "translate(undefinedpx, undefinedpx)",
+        "pointerEvents": "none",
+        "position": "absolute",
+        "top": 0,
+        "transform": "translate(undefinedpx, undefinedpx)",
+        "visibility": "hidden",
+      }
+    }
+  >
+    <div
+      className="recharts-default-tooltip"
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "border": "1px solid #ccc",
+          "margin": 0,
+          "padding": 10,
+          "whiteSpace": "nowrap",
+        }
+      }
+    >
+      <p
+        className="recharts-tooltip-label"
+        style={
+          Object {
+            "margin": 0,
+          }
+        }
+      >
+        
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Button Emoji 1`] = `
+<button
+  onClick={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "border": "1px solid #eee",
+      "borderRadius": 3,
+      "cursor": "pointer",
+      "fontSize": 15,
+      "margin": 10,
+      "padding": "3px 10px",
+    }
+  }
+  type="button"
+>
+  <span
+    aria-label="so cool"
+    role="img"
+  >
+    😀 😎 👍 💯
+  </span>
+</button>
+`;
+
+exports[`Storyshots Button Text 1`] = `
+<button
+  onClick={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "border": "1px solid #eee",
+      "borderRadius": 3,
+      "cursor": "pointer",
+      "fontSize": 15,
+      "margin": 10,
+      "padding": "3px 10px",
+    }
+  }
+  type="button"
+>
+  Hello Button
+</button>
+`;
+
+exports[`Storyshots Counter Basic Count 1`] = `
+<div
+  className="MuiContainer-root MuiContainer-maxWidthLg"
+>
+  <div>
+    Count: 
+    2
+  </div>
+  <button
+    className="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedSecondary"
+    disabled={false}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiButton-label"
+    >
+      Reset
+    </span>
+  </button>
+  <button
+    className="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary"
+    disabled={false}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiButton-label"
+    >
+      subtract
+    </span>
+  </button>
+  <button
+    className="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary"
+    disabled={false}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiButton-label"
+    >
+      add
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Storyshots Welcome to Storybook 1`] = `
+<article
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "color": "#000",
+      "fontFamily": "\\"Helvetica Neue\\", Helvetica, \\"Segoe UI\\", Arial, freesans, sans-serif",
+      "lineHeight": 1.4,
+      "padding": 15,
+    }
+  }
+>
+  <h1>
+    Welcome to storybook
+  </h1>
+  <p>
+    This is a UI component dev environment for your app.
+  </p>
+  <p>
+    We've added some basic stories inside the 
+    <code
+      style={
+        Object {
+          "backgroundColor": "#f3f2f2",
+          "border": "1px solid #eae9e9",
+          "borderRadius": 4,
+          "color": "#3a3a3a",
+          "fontSize": 15,
+          "fontWeight": 600,
+          "padding": "2px 5px",
+        }
+      }
+    >
+      src/stories
+    </code>
+     directory.
+    <br />
+    A story is a single state of one or more UI components. You can have as many stories as you want.
+    <br />
+    (Basically a story is like a visual test case.)
+  </p>
+  <p>
+    See these sample 
+    <button
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "transparent",
+          "borderBottom": "1px solid #1474f3",
+          "borderLeft": "none",
+          "borderRight": "none",
+          "borderTop": "none",
+          "color": "#1474f3",
+          "cursor": "pointer",
+          "font": "inherit",
+          "padding": 0,
+          "paddingBottom": 2,
+          "textDecoration": "none",
+        }
+      }
+      type="button"
+    >
+      stories
+    </button>
+     for a component called 
+    <code
+      style={
+        Object {
+          "backgroundColor": "#f3f2f2",
+          "border": "1px solid #eae9e9",
+          "borderRadius": 4,
+          "color": "#3a3a3a",
+          "fontSize": 15,
+          "fontWeight": 600,
+          "padding": "2px 5px",
+        }
+      }
+    >
+      Button
+    </code>
+    .
+  </p>
+  <p>
+    Just like that, you can add your own components as stories.
+    <br />
+    You can also edit those components and see changes right away.
+    <br />
+    (Try editing the 
+    <code
+      style={
+        Object {
+          "backgroundColor": "#f3f2f2",
+          "border": "1px solid #eae9e9",
+          "borderRadius": 4,
+          "color": "#3a3a3a",
+          "fontSize": 15,
+          "fontWeight": 600,
+          "padding": "2px 5px",
+        }
+      }
+    >
+      Button
+    </code>
+     stories located at 
+    <code
+      style={
+        Object {
+          "backgroundColor": "#f3f2f2",
+          "border": "1px solid #eae9e9",
+          "borderRadius": 4,
+          "color": "#3a3a3a",
+          "fontSize": 15,
+          "fontWeight": 600,
+          "padding": "2px 5px",
+        }
+      }
+    >
+      src/stories/1-Button.stories.js
+    </code>
+    .)
+  </p>
+  <p>
+    Usually we create stories with smaller UI components in the app.
+    <br />
+    Have a look at the 
+    <a
+      href="https://storybook.js.org/basics/writing-stories"
+      rel="noopener noreferrer"
+      style={
+        Object {
+          "borderBottom": "1px solid #1474f3",
+          "color": "#1474f3",
+          "paddingBottom": 2,
+          "textDecoration": "none",
+        }
+      }
+      target="_blank"
+    >
+      Writing Stories
+    </a>
+     section in our documentation.
+  </p>
+  <p
+    style={
+      Object {
+        "opacity": 0.5,
+      }
+    }
+  >
+    <b>
+      NOTE:
+    </b>
+    <br />
+    Have a look at the 
+    <code
+      style={
+        Object {
+          "backgroundColor": "#f3f2f2",
+          "border": "1px solid #eae9e9",
+          "borderRadius": 4,
+          "color": "#3a3a3a",
+          "fontSize": 15,
+          "fontWeight": 600,
+          "padding": "2px 5px",
+        }
+      }
+    >
+      .storybook/webpack.config.js
+    </code>
+     to add webpack loaders and plugins you are using in this project.
+  </p>
+</article>
+`;
