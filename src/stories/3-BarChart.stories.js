@@ -1,10 +1,11 @@
 import React from 'react';
 import { withKnobs, text, number, object } from '@storybook/addon-knobs';
+import { withA11y } from '@storybook/addon-a11y';
 import BarChart from '../components/barChart';
 
 export default {
   title: 'Bar Chart',
-  decorators: [withKnobs],
+  decorators: [withKnobs, withA11y],
   component: BarChart
 };
 
