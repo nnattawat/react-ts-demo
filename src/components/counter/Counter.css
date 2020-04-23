@@ -1,0 +1,8 @@
+.count-result {
+  font-size: 1.3rem;
+  padding: 10px 0;
+}
+
+.count-controller button:not(:last-child) {
+  margin-right: 5px;
+}

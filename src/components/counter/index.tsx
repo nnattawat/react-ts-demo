@@ -26,13 +26,15 @@ export default function Counter({
 
   return (
     <Container>
-      <div>
+      <div className="count-result">
         Count: {state.count}
       </div>
-      {/* For simplicity I don't create an actionCreator e.g. reset(0), decrement() */}
-      <Button variant="outlined" color="secondary" onClick={() => dispatch({ type: RESET, count })}>Reset</Button>
-      <Button variant="outlined" color="primary" onClick={() => dispatch({ type: DECREMENT})}>{subtractText}</Button>
-      <Button variant="outlined" color="primary" onClick={() => dispatch({ type: INCREMENT})}>{addText}</Button>
+      <div className="count-controller">
+        {/* For simplicity I don't create an actionCreator e.g. reset(0), decrement() */}
+        <Button variant="contained" onClick={() => dispatch({ type: RESET, count })}>Reset</Button>
+        <Button variant="contained" color="primary" onClick={() => dispatch({ type: DECREMENT})}>{subtractText}</Button>
+        <Button variant="contained" color="primary" onClick={() => dispatch({ type: INCREMENT})}>{addText}</Button>
+      </div>
     </Container>
   )
 }
